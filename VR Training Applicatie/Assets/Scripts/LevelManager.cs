@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    public int SceneNumber;
+    public string SceneName;
  
 
     public void LoadScene()
     {
-        SceneManager.LoadScene("Scene " + SceneNumber.ToString());
+        SceneManager.LoadScene(SceneName);
     }
 }
