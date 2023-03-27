@@ -13,4 +13,10 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneName);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+        Console.WriteLine("BYE!!!");
+    }
 }
