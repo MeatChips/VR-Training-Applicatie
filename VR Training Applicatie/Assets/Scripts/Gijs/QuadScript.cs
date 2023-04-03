@@ -5,19 +5,24 @@ using UnityEngine.UI;
 
 public class QuadScript : MonoBehaviour
 {
-    public Material mMaterial;
-    public MeshRenderer mMeshRenderer;
+    [Header("Componenets")]
+    [SerializeField] private Material mMaterial;
+    [SerializeField] private MeshRenderer mMeshRenderer;
 
-    public Camera playerCamera;
-
-    float[] mPoints;
-    int mHitCount;
-
-    float mDelay;
-
-    public float speed = 10f;
-
+    [Header("Game Objects")]
+    [SerializeField] private Camera playerCamera;
+    [SerializeField] private Button button;
+    [SerializeField] private GameObject TargetField;
     GameObject go;
+
+    [Header("Heatmap Stuff")]
+    [SerializeField] private float[] mPoints;
+    [SerializeField] private int mHitCount;
+    [SerializeField] private float mDelay;
+    [SerializeField] private float speed = 10f;
+
+    [Header("Bool")]
+    [SerializeField] private bool presentationHasStarted;
 
     // Start is called before the first frame updates
     void Start()
@@ -27,7 +32,7 @@ public class QuadScript : MonoBehaviour
         mMeshRenderer = GetComponent<MeshRenderer>();
         mMaterial = mMeshRenderer.material;
 
-        mPoints = new float[512 * 3]; // 32 points
+        mPoints = new float[335 * 3]; // 32 points
     }
 
     // Update is called once per frame
@@ -38,16 +43,61 @@ public class QuadScript : MonoBehaviour
         Ray ray = playerCamera.ScreenPointToRay(pos);
         Debug.DrawRay(ray.origin, ray.direction * 50, Color.yellow);
 
-        mDelay -= Time.deltaTime;
-        if (mDelay <= 0)
-        {
-            go = Instantiate(Resources.Load<GameObject>("Projectile"), playerCamera.transform.position, playerCamera.transform.rotation);
-            go.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * speed, ForceMode.Impulse);
-
-            mDelay = 0.5f;
-        }
+        SpawnGO();
     }
 
+    #region Spawning Balls
+    public void SpawnGO()
+    {
+        if (presentationHasStarted == true)
+        {
+            mDelay -= Time.deltaTime;
+            if (mDelay <= 0)
+            {
+                go = Instantiate(Resources.Load<GameObject>("Projectile"), playerCamera.transform.position, playerCamera.transform.rotation);
+                go.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * speed, ForceMode.Impulse);
+
+                mDelay = 0.5f;
+            }
+        }
+        else if (presentationHasStarted == false)
+        {
+            mDelay = 0.1f;
+        }
+    }
+    #endregion
+
+    #region Start/Stop Presentation
+    public void StartPresentation()
+    {
+        Debug.Log("START PRESENTATION");
+        presentationHasStarted = true;
+        TurnOffMesh();
+    }
+
+    public void StopPresentation()
+    {
+        Debug.Log("STOP PRESENTATION");
+        presentationHasStarted = false;
+        TurnOnMesh();
+    }
+    #endregion
+
+    #region Turning off everything / Turning on everything
+    public void TurnOnMesh()
+    {
+        //TargetField.SetActive(true);
+        mMeshRenderer.enabled = true;
+    }
+
+    public void TurnOffMesh()
+    {
+        //TargetField.SetActive(false);
+        mMeshRenderer.enabled = false;
+    }
+    #endregion
+
+    #region Shader/Hits
     private void OnCollisionEnter(Collision collision)
     {
         foreach(ContactPoint cp in collision.contacts)
@@ -86,4 +136,5 @@ public class QuadScript : MonoBehaviour
         mMaterial.SetFloatArray("_Hits", mPoints);
         mMaterial.SetInt("_HitCount", mHitCount);
     }
+    #endregion
 }
