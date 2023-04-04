@@ -3,7 +3,47 @@ guid: 752ef2557fddac94fb49c5db8d7575b4
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch27_body
+    second: {fileID: 2100000, guid: 26e7aee07306aa741bef45076f18a170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch27_hair
+    second: {fileID: 2100000, guid: 0f95e42e55fe3734f9aa8bfb78aa0336, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch27_1001_Diffuse
+    second: {fileID: 2800000, guid: dcda885f28d83f44ea6222b1bae369e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch27_1001_Glossiness
+    second: {fileID: 2800000, guid: a58f708856e042441b7e6aab175e0d25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch27_1001_Normal
+    second: {fileID: 2800000, guid: 7cb576d9d88000846942c9835e4ac73a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch27_1001_Specular
+    second: {fileID: 2800000, guid: f4a533162b5381844817b1ba7f95b039, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch27_1002_Diffuse
+    second: {fileID: 2800000, guid: e6bae8862008b5b429e93f75093fdf10, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ch27_1002_Normal
+    second: {fileID: 2800000, guid: f2a2cab685ed1704290988bcd0a2f6f1, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -40,10 +80,10 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -76,7 +116,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
