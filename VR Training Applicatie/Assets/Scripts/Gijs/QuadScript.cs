@@ -12,7 +12,6 @@ public class QuadScript : MonoBehaviour
     [Header("Game Objects")]
     [SerializeField] private Camera playerCamera;
     [SerializeField] private Button button;
-    [SerializeField] private GameObject TargetField;
     GameObject go;
 
     [Header("Heatmap Stuff")]
@@ -24,6 +23,7 @@ public class QuadScript : MonoBehaviour
     [Header("Bool")]
     [SerializeField] private bool presentationHasStarted;
 
+    #region Start/Update
     // Start is called before the first frame updates
     void Start()
     {
@@ -45,6 +45,7 @@ public class QuadScript : MonoBehaviour
 
         SpawnGO();
     }
+    #endregion
 
     #region Spawning Balls
     public void SpawnGO()
@@ -83,16 +84,14 @@ public class QuadScript : MonoBehaviour
     }
     #endregion
 
-    #region Turning off everything / Turning on everything
+    #region Off/On Mesh
     public void TurnOnMesh()
     {
-        //TargetField.SetActive(true);
         mMeshRenderer.enabled = true;
     }
 
     public void TurnOffMesh()
     {
-        //TargetField.SetActive(false);
         mMeshRenderer.enabled = false;
     }
     #endregion
@@ -129,7 +128,7 @@ public class QuadScript : MonoBehaviour
         mPoints[mHitCount * 3 + 2] = Random.Range(1f, 3f);
 
         mHitCount++;
-        mHitCount %= 256;
+        mHitCount %= 333;
 
         Debug.Log("hit count:" + mHitCount);
 
