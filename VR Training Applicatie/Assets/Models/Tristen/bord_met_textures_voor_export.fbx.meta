@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 0bdd200640793e5418500eb6b54c985e
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beeldscherm
+    second: {fileID: 2100000, guid: f4d29a778af93154d834ef039855b9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buttons
+    second: {fileID: 2100000, guid: ff83a584b785b604d984b1da7de28771, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome_
+    second: {fileID: 2100000, guid: e0bd21677220f8a40ba1f748909d76c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: control paneel
+    second: {fileID: 2100000, guid: fc835823d2dc4bc46bc7e49d024802ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kabel
+    second: {fileID: 2100000, guid: e8515f3cc165a9c4a9b6df8330ce87f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic om scherm heen_
+    second: {fileID: 2100000, guid: 94131b916055e84429cd6ec4d74b5bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rest van het white board
+    second: {fileID: 2100000, guid: d4d3cd6722efd7d4fa14be4db12d60b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standaart
+    second: {fileID: 2100000, guid: d62b10a109d8ef54a8b8e7b40e38dc04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white board
+    second: {fileID: 2100000, guid: 7b60a1da5a88c184b817d42c33faf380, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_beeldscherm_BaseColor
+    second: {fileID: 2800000, guid: 494bd74b6607a4d40ab06543007afd8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_beeldscherm_Normal
+    second: {fileID: 2800000, guid: ad117a6fb6ef1914896ddc252c2de487, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_beeldscherm_Roughness
+    second: {fileID: 2800000, guid: 3107f7a655c9dc64bbad785553515ded, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_buttons_BaseColor
+    second: {fileID: 2800000, guid: 140aa5509cf70584a89544960ef57c86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_buttons_Metallic
+    second: {fileID: 2800000, guid: 0b91fdf59c402694aa919a3d6c2e7c49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_buttons_Normal
+    second: {fileID: 2800000, guid: 60d1ff6f6656a4446b3a94d6efaff61b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_buttons_Roughness
+    second: {fileID: 2800000, guid: 6bb984a7912600a4ca9ed83ab7f76a3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_chrome _BaseColor
+    second: {fileID: 2800000, guid: 094a0c0025368934899390a2930b9c2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_chrome _Metallic
+    second: {fileID: 2800000, guid: 44edccdad31b81745b80200da95772de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_chrome _Normal
+    second: {fileID: 2800000, guid: fe9fea8b2f6133c45b404b19dc495f61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_chrome _Roughness
+    second: {fileID: 2800000, guid: cbfbe4cf1180d1b4ca68c03561d48b5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_control paneel_BaseColor
+    second: {fileID: 2800000, guid: f74e319c90c92d7418e1c0a03803cbb2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_control paneel_Metallic
+    second: {fileID: 2800000, guid: 2e92b19c7220a6c48b4b78165dde2c45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_control paneel_Normal
+    second: {fileID: 2800000, guid: f8ec415ff6325514d96f60303f9c3b81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_control paneel_Roughness
+    second: {fileID: 2800000, guid: 754997e05c970ee41b57e766a802f5d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_kabel_BaseColor
+    second: {fileID: 2800000, guid: ced853d1c3d9f6c4181967d3ce404bb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_kabel_Metallic
+    second: {fileID: 2800000, guid: 686a44cd13f85c340b1b41b695c05453, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_kabel_Normal
+    second: {fileID: 2800000, guid: 0e735f4b0dc385f44acab549150d207e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_kabel_Roughness
+    second: {fileID: 2800000, guid: 5f4834cc7593f314ba32bd38b82304db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_plastic om scherm heen _BaseColor
+    second: {fileID: 2800000, guid: 2fdbe190700055a4792351ad7de39747, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_plastic om scherm heen _Metallic
+    second: {fileID: 2800000, guid: b55a9dd070e23f8489ef9b593aa3ae56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_plastic om scherm heen _Normal
+    second: {fileID: 2800000, guid: ee916ccff19d3164fbcc81b7649e2a60, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_plastic om scherm heen _Roughness
+    second: {fileID: 2800000, guid: a9bb5d4a883b82a4d871f4e0975908b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_rest van het white board_BaseColor
+    second: {fileID: 2800000, guid: c106c31641096a3498814cc5f5948daa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_rest van het white board_Metallic
+    second: {fileID: 2800000, guid: 8d21c850c826b434087a4b295fc15f5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_rest van het white board_Normal
+    second: {fileID: 2800000, guid: 273b42fcefe4269449beafcb89c83e32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_rest van het white board_Roughness
+    second: {fileID: 2800000, guid: da4268e16feba1644ada32dc0ab59d34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_standaart_BaseColor
+    second: {fileID: 2800000, guid: 54fcf284d48f88c45a2856e7fc9a0f18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_standaart_Metallic
+    second: {fileID: 2800000, guid: a420dfff99c604e479d128b5a96e8799, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_standaart_Normal
+    second: {fileID: 2800000, guid: 315e91efda35e4d47b114f2be08df968, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Digibord_met_textures_standaart_Roughness
+    second: {fileID: 2800000, guid: fb4a37bdf20b3634d8b49442c48ed39d, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
