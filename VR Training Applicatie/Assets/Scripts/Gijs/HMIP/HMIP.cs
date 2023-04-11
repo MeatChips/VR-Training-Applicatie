@@ -8,109 +8,70 @@ public class HMIP : MonoBehaviour
 {
     public Slider peopleSlider;
 
-    public GameObject go;
+    public bool isTrue;
 
-    public bool isSpawned;
+    public List<GameObject> peopleList = new List<GameObject>();
 
-    public List<GameObject> ListOfSpawnpoints = new List<GameObject>();
-
-
-    public bool optionOne;
-    public bool optionTwo;
-    public bool optionThree;
-
-    public bool destroyPeople;
-    public bool spawnPeople;
+    public int amountPeople1 = 4;
+    public int amountPeople2 = 7;
+    public int amountPeople3 = 2;
 
     // Start is called before the first frame update
     void Start()
     {
-        optionOne = false;
-        optionTwo = false;
-        optionThree = false;
-
-        foreach (GameObject Obj in GameObject.FindGameObjectsWithTag("PeopleSpawnPoint"))
+        foreach (GameObject Obj in GameObject.FindGameObjectsWithTag("People"))
         {
-            ListOfSpawnpoints.Add(Obj);
+            peopleList.Add(Obj);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (peopleSlider.value == 1)
         {
-            optionOne = true;
-            if (optionOne)
+            SetActiveTrue();
+            if (isTrue)
             {
-                SpawnPeople(3);
+                for (int i = 0; i < amountPeople1; i++)
+                {
+                    peopleList[i].SetActive(true);
+                }
             }
         }
 
-        //if (peopleSlider.value == 0)
-        //{
-        //    DestroyPeople();
-        //    optionOne = false;
-        //    optionTwo = false;
-        //    optionThree = false;
-        //}
-        //
-        //if(peopleSlider.value == 1)
-        //{
-        //    DestroyPeople();
-        //    optionOne = true;
-        //    if (optionOne)
-        //    {
-        //        SpawnPeople(1);
-        //        optionTwo = false;
-        //        optionThree = false;
-        //    }
-        //}
-        //
-        //if (peopleSlider.value == 2)
-        //{
-        //    DestroyPeople();
-        //    optionTwo = true;
-        //    if (optionTwo)
-        //    {
-        //        SpawnPeople(2);
-        //        optionOne = false;
-        //        optionThree = false;
-        //    }
-        //}
-        //
-        //if (peopleSlider.value == 3)
-        //{
-        //    DestroyPeople();
-        //    optionThree = true;
-        //    if (optionThree)
-        //    {
-        //        SpawnPeople(3);
-        //        optionOne = false;
-        //        optionTwo = false;
-        //    }
-        //}
-    }
-
-    public void DestroyPeople()
-    {
-        Destroy(GameObject.FindWithTag("People"));
-        isSpawned = false;
-    }
-
-    public void SpawnPeople(int spawnIndex)
-    {
-        if (!isSpawned)
+        if (peopleSlider.value == 2)
         {
-            Instantiate(/*Resources.Load<GameObject>("Person")*/go, ListOfSpawnpoints[spawnIndex].transform.position, go.transform.rotation);
-            isSpawned = true;
+            SetActiveTrue();
+            if (isTrue)
+            {
+                for (int i = 0; i < amountPeople2; i++)
+                {
+                    peopleList[i].SetActive(true);
+                }
+            }
+        }
+
+        if (peopleSlider.value == 3)
+        {
+            SetActiveTrue();
+            if (isTrue)
+            {
+                for (int i = 0; i < amountPeople3; i++)
+                {
+                    peopleList[i].SetActive(true);
+                }
+            }
         }
     }
 
-    public void SliderTest()
+    public void SetActiveTrue()
     {
-        //Displays the value of the slider in the console.
-        Debug.Log(peopleSlider.value);
+        for (int i = 0; i < 7; i++)
+        {
+            peopleList[i].SetActive(false);
+        }
+
+        isTrue = true;
     }
 }
