@@ -2059,43 +2059,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f556dcf5da09154418812acd523e69d6, type: 3}
---- !u!21 &659702963
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &682577478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2267,6 +2230,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
+--- !u!21 &837427772
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &874274811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4019,6 +4019,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6d225d6a9ac95ca4c8d2e99bc743e6df, type: 3}
   m_PrefabInstance: {fileID: 1229733070}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1249025589 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5070624231164234755, guid: 6e3ce1f23b865df44ab55d596dfec184, type: 3}
+  m_PrefabInstance: {fileID: 1812968253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1249025593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249025589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63445993ac8f19e42b80f196c351c4f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_Camera: {fileID: 1406868551}
+  m_TargetSource: 2
+  m_ClickAction:
+    actionPath: /actions/default/in/GrabPinch
+    needsReinit: 0
 --- !u!1001 &1272576285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4847,11 +4870,11 @@ PrefabInstance:
     - target: {fileID: 6127289600802770988, guid: 276d96629da5eeb44a77c6b54a5bdb6f, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 2073318235}
+      objectReference: {fileID: 2064020477}
     - target: {fileID: 6127289600803803560, guid: 276d96629da5eeb44a77c6b54a5bdb6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 659702963}
+      objectReference: {fileID: 837427772}
     - target: {fileID: 6127289600805894926, guid: 276d96629da5eeb44a77c6b54a5bdb6f, type: 3}
       propertyPath: m_Name
       value: '[CameraRig]'
@@ -6474,7 +6497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f556dcf5da09154418812acd523e69d6, type: 3}
---- !u!43 &2073318235
+--- !u!43 &2064020477
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6645,9 +6668,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 522986115900664585, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 879735249031003433, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_Name
       value: FirstSceneUICanvas 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 894327098626445916, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596216817727918196, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628286884688950994, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5555606254314153664, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_Pivot.x
@@ -6732,6 +6771,18 @@ PrefabInstance:
     - target: {fileID: 5555606254314153664, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957402442145218700, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577236873643876727, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565075532631504834, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8970822227922348001, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_Camera

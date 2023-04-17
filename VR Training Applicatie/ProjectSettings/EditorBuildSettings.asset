@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menno/Menno.unity
-    guid: f9de1487688e937419430d03dbd82062
+    path: Assets/Scenes/Menno/Menu.unity
+    guid: 0e93ff33285668243a4976275cae32bc
   - enabled: 1
-    path: Assets/Scenes/Menno/Menno2.unity
-    guid: 563f355a236ae9944a81dac2c9f26598
+    path: Assets/Scenes/Dylan/Dylan2.unity
+    guid: 4855c6d367816534eaa0c23405dbdbf7
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: a63c1cd22a2ba554e81a641bfaf48229, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b2d8a7c3951f2e847996479ece40910b, type: 2}
