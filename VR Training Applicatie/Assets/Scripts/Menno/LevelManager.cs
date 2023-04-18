@@ -9,10 +9,6 @@ public class LevelManager : MonoBehaviour
 {
     public string SceneName;
 
-    public AudioSource NormalButtonClick;
-    public AudioSource PlayButtonClick;
- 
-
     public void LoadScene()
     {
         SceneManager.LoadScene(SceneName);
@@ -21,16 +17,6 @@ public class LevelManager : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
-        Console.WriteLine("BYE!!!");
-    }
-
-    public void PlayButtonAudio()
-    {
-        PlayButtonClick.Play();
-    }
-
-    public void NormalButtonAudio()
-    {
-        NormalButtonClick.Play();
+        System.Console.WriteLine("BYE!!!");
     }
 }
