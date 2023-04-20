@@ -11,14 +11,13 @@ public class QuadScript : MonoBehaviour
 
     [Header("Game Objects")]
     [SerializeField] private Camera playerCamera;
-    [SerializeField] private Button button;
     GameObject go;
 
     [Header("Heatmap Stuff")]
     [SerializeField] private float[] mPoints;
     [SerializeField] private int mHitCount;
     [SerializeField] private float mDelay;
-    [SerializeField] private float speed = 10f;
+    [SerializeField] private float speed = 5f;
 
     [Header("Bool")]
     [SerializeField] private bool presentationHasStarted;
@@ -58,7 +57,7 @@ public class QuadScript : MonoBehaviour
                 go = Instantiate(Resources.Load<GameObject>("Projectile"), playerCamera.transform.position, playerCamera.transform.rotation);
                 go.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * speed, ForceMode.Impulse);
 
-                mDelay = 0.5f;
+                mDelay = 2f;
             }
         }
         else if (presentationHasStarted == false)
@@ -81,6 +80,15 @@ public class QuadScript : MonoBehaviour
         Debug.Log("STOP PRESENTATION");
         presentationHasStarted = false;
         TurnOnMesh();
+        //Destroy(GameObject.FindWithTag("Projectile"));
+        if (!presentationHasStarted)
+        {
+            var clones = GameObject.FindGameObjectsWithTag("Projectile");
+            foreach (var clone in clones)
+            {
+                Destroy(clone);
+            }
+        }
     }
     #endregion
 
@@ -95,6 +103,8 @@ public class QuadScript : MonoBehaviour
         mMeshRenderer.enabled = false;
     }
     #endregion
+
+
 
     #region Shader/Hits
     private void OnCollisionEnter(Collision collision)
