@@ -6653,6 +6653,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstSceneUICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1067247484007670209, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196640261000700193, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596216817727918196, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3676080999669658392, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5555606254314153664, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6735,6 +6751,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5555606254314153664, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599174981869892428, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120448599936894264, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8970822227922348001, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
