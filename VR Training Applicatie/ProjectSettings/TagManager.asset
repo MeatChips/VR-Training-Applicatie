@@ -6,6 +6,7 @@ TagManager:
   tags:
   - People
   - PeopleSpawnPoint
+  - Projectile
   layers:
   - Default
   - TransparentFX
