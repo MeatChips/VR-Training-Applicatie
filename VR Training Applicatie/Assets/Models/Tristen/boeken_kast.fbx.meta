@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: afd5865fc66ceda41a9010c34052541e
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek groen_
+    second: {fileID: 2100000, guid: c2e0740bcd7e3c4439a8bd1c503accf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_blau
+    second: {fileID: 2100000, guid: 472f005d5d5111e4fafe9ab3afa3bd66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_donker_rood
+    second: {fileID: 2100000, guid: c7d2e868bf35cac43857a185fe9949f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_leer
+    second: {fileID: 2100000, guid: 27afe7f221dfcaa49b931d6cdffd174c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_licht_groen
+    second: {fileID: 2100000, guid: 1ff65e55a4ab3ba46a00c1425d39c467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_licht_rood
+    second: {fileID: 2100000, guid: 477b1fc6896331c4b9f6fb00ba497f47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_paars
+    second: {fileID: 2100000, guid: 85cdda7c1444be242ac53f07a6f559f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_raar_groen_
+    second: {fileID: 2100000, guid: 69c9962fe596dea43b641a5f35094f17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boek_zwart
+    second: {fileID: 2100000, guid: 0aadcb671ac9e144eb5683f17af49b43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grote kast_
+    second: {fileID: 2100000, guid: db7d1409cc2a63a4d8b908138d7fb00a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kast
+    second: {fileID: 2100000, guid: 2000b2d172b6a3c4cadc46dcd21c7c1b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_bladzijde_BaseColor
+    second: {fileID: 2800000, guid: cd3a8bf6c6cd1874b91049dc20f273e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken blau_BaseColor
+    second: {fileID: 2800000, guid: 8697a38744bdcb54c922dcf6dfa9088a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken donker blau groen _BaseColor
+    second: {fileID: 2800000, guid: b3b85535fee837b489e0565699cfc53b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken donker roze _BaseColor
+    second: {fileID: 2800000, guid: e712888bb62d33742b90c81197fa43b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken mostert_BaseColor
+    second: {fileID: 2800000, guid: 4da1f9a5bf15199418083d2f8e6e9337, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken oranje _BaseColor
+    second: {fileID: 2800000, guid: c5e7b0ee1bb8e28438c859ec373150e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken paars_BaseColor
+    second: {fileID: 2800000, guid: 7b33edb466295704d9beaf6c5790fbcb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken rood_BaseColor
+    second: {fileID: 2800000, guid: e21c6ffff436e4f4a84c0026bf3e470d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_boeken violet_BaseColor
+    second: {fileID: 2800000, guid: dbd06d13fe2b85f4798db4429d98f6c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_grote kast _BaseColor
+    second: {fileID: 2800000, guid: a10c657b93f39544790bbb92d479a360, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_grote kast _Metallic
+    second: {fileID: 2800000, guid: 4e521c4869cd31f4291a1cce259b978f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_kast_BaseColor
+    second: {fileID: 2800000, guid: 639c4d8764a54d4468c5b0973e7fca94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boeken_kast_kast_Metallic
+    second: {fileID: 2800000, guid: 20a5814ccc4dd3f4eb5fb79791006b36, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
