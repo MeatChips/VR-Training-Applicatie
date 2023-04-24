@@ -57,7 +57,7 @@ public class QuadScript : MonoBehaviour
                 go = Instantiate(Resources.Load<GameObject>("Projectile"), playerCamera.transform.position, playerCamera.transform.rotation);
                 go.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * speed, ForceMode.Impulse);
 
-                mDelay = 2f;
+                mDelay = 3f;
             }
         }
         else if (presentationHasStarted == false)
@@ -103,8 +103,6 @@ public class QuadScript : MonoBehaviour
         mMeshRenderer.enabled = false;
     }
     #endregion
-
-
 
     #region Shader/Hits
     private void OnCollisionEnter(Collision collision)
