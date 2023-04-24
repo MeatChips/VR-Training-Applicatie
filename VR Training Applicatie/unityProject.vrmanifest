@@ -2,7 +2,7 @@
   "source": "Unity",
   "applications": [
     {
-      "app_key": "application.generated.unity.vrtrainingapplicatie.exe",
+      "app_key": "application.generated.unity.vrpresenteren.exe",
       "launch_type": "url",
       "url": "steam://launch/",
       "action_manifest_path": "C:\\Users\\School\\Documents\\GitHub\\VR-Training-Applicatie\\VR Training Applicatie\\Assets\\StreamingAssets\\SteamVR\\actions.json",

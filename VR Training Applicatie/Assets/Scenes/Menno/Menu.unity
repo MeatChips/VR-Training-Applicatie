@@ -6649,25 +6649,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 304044840, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 587841559, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1397881004, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
-      propertyPath: m_text
-      value: Er wordt gevraagd welke dia's je wilt exporteren klik op "Alle dia's"
-      objectReference: {fileID: 0}
     - target: {fileID: 879735249031003433, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_Name
       value: FirstSceneUICanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 2196640261000700193, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5555606254314153664, guid: 835fa6c17085daf48bea4fbd082d216b, type: 3}
       propertyPath: m_Pivot.x
