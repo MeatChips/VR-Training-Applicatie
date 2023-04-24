@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using TMPro;
 
 public class HMIP : MonoBehaviour
 {
-    public Slider peopleSlider;
+    public TMP_Dropdown peopleDropdown;
 
-    public bool isTrue;
+    [Header("Booleans")]
+    [SerializeField] private bool isTrue;
 
-    public List<GameObject> peopleList = new List<GameObject>();
+    [SerializeField] private List<GameObject> peopleList = new List<GameObject>();
 
-    public int amountPeople1 = 4;
-    public int amountPeople2 = 7;
-    public int amountPeople3 = 2;
+    [Header("People Amount")]
+    [SerializeField] private int amountPeople1 = 3;
+    [SerializeField] private int amountPeople2 = 5;
+    [SerializeField] private int amountPeople3 = 7;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +31,12 @@ public class HMIP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (peopleSlider.value == 1)
+        Dropdown();
+    }
+
+    public void Dropdown()
+    {
+        if (peopleDropdown.value == 0)
         {
             SetActiveTrue();
             if (isTrue)
@@ -40,7 +48,7 @@ public class HMIP : MonoBehaviour
             }
         }
 
-        if (peopleSlider.value == 2)
+        if (peopleDropdown.value == 1)
         {
             SetActiveTrue();
             if (isTrue)
@@ -52,7 +60,7 @@ public class HMIP : MonoBehaviour
             }
         }
 
-        if (peopleSlider.value == 3)
+        if (peopleDropdown.value == 2)
         {
             SetActiveTrue();
             if (isTrue)
