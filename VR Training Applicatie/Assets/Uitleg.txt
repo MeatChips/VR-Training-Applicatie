@@ -1,0 +1,17 @@
+Hoe import je je presentatie in VR Presenteren?
+
+1. Selecteer je powerpoint presentatie in powerpoint
+
+2. Kilk op "exporteren" in het tabblad links
+
+3. kilk op "bestandstype wijzigen"
+
+4. Selecteer "PNG Portable Network Graphics"
+
+5. Klik op "Opslaan als"
+
+6. Sla het bestand op, op locatie van keuze
+
+7. Er wordt gevraagd welke dia's je wilt exporteren klik op "Alle dia's"
+
+8. Open VR Presenteren en wanneer je de presentatie instellingen krijgt, klik op "Kies bestand" en selecteer de folder die je net hebt opgeslagen
