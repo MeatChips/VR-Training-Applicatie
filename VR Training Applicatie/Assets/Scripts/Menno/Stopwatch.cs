@@ -7,7 +7,7 @@ using TMPro;
 
 public class Stopwatch : MonoBehaviour
 {
-    bool stopwatchActive = true;
+    bool stopwatchActive = false;
     float currentTime;
 
     public TMP_Text currentTimeText;
