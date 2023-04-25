@@ -15,9 +15,10 @@ public class HMIP : MonoBehaviour
     [SerializeField] private List<GameObject> peopleList = new List<GameObject>();
 
     [Header("People Amount")]
-    [SerializeField] private int amountPeople1 = 3;
-    [SerializeField] private int amountPeople2 = 5;
-    [SerializeField] private int amountPeople3 = 7;
+    [SerializeField] private int amountPeople1 = 0;
+    [SerializeField] private int amountPeople2 = 3;
+    [SerializeField] private int amountPeople3 = 5;
+    [SerializeField] private int amountPeople4 = 7;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class HMIP : MonoBehaviour
     void Update()
     {
         Dropdown();
+
     }
 
     public void Dropdown()
@@ -53,7 +55,7 @@ public class HMIP : MonoBehaviour
             SetActiveTrue();
             if (isTrue)
             {
-                for (int i = 0; i < amountPeople2; i++)
+                for (int i = 0; i < amountPeople1; i++)
                 {
                     peopleList[i].SetActive(true);
                 }
@@ -61,6 +63,18 @@ public class HMIP : MonoBehaviour
         }
 
         if (peopleDropdown.value == 2)
+        {
+            SetActiveTrue();
+            if (isTrue)
+            {
+                for (int i = 0; i < amountPeople2; i++)
+                {
+                    peopleList[i].SetActive(true);
+                }
+            }
+        }
+
+        if (peopleDropdown.value == 3)
         {
             SetActiveTrue();
             if (isTrue)

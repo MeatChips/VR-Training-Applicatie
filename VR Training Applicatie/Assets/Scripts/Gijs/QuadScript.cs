@@ -43,6 +43,7 @@ public class QuadScript : MonoBehaviour
         Debug.DrawRay(ray.origin, ray.direction * 50, Color.yellow);
 
         SpawnGO();
+        StopGoAfterTime();
     }
     #endregion
 
@@ -64,6 +65,13 @@ public class QuadScript : MonoBehaviour
         {
             mDelay = 0.1f;
         }
+    }
+    #endregion
+
+    #region Destroy Projectiles After Time
+    public void StopGoAfterTime()
+    {
+        Destroy(go, 20f);
     }
     #endregion
 
