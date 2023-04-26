@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.vrpresenteren.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\School\\Documents\\GitHub\\VR-Training-Applicatie\\VR Training Applicatie\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\Student\\Documents\\GitHub\\VR-Training-Applicatie\\VR Training Applicatie\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "VR Presenteren [Testing]"
