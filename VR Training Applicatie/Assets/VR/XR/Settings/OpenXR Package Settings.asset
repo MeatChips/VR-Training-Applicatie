@@ -326,7 +326,7 @@ MonoBehaviour:
   - {fileID: 3120720143228494227}
   - {fileID: 2983391840230922473}
   - {fileID: 3580797522247485769}
-  m_renderMode: 0
+  m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &2017770170055316783
 MonoBehaviour:
